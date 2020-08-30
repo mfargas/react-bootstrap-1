@@ -1,15 +1,27 @@
+.grid{
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, 1vw);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+.canvas-container {
+  padding: none;
+  background-color: aliceblue;
+}
+
 .one{
   background-color: black;
 }
 
 .two{
-  background-color: green;
+  background-color: mediumspringgreen;
 }
 
 .three{
-  background-color: blue;
+  background-color: navy;
 }
 
 .four{
-  background-color: black;
+  background-color: pink;
 }
