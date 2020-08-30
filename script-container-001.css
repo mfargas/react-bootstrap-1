@@ -1,3 +1,13 @@
+.grid{
+  display: grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 15px;
+}
+.canvas-container {
+  padding: 2px;
+  background-color: aliceblue;
+}
+
 .one{
   background-color: black;
 }
@@ -11,5 +21,5 @@
 }
 
 .four{
-  background-color: black;
+  background-color: pink;
 }
