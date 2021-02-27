@@ -1,4 +1,9 @@
-.grid{
+body {
+  color: black;
+  background-color: white;
+}
+
+.grid {
   display: grid;
   grid-auto-flow: column;
   grid-template-rows: repeat(3, 1vw);
@@ -10,18 +15,18 @@
   background-color: aliceblue;
 }
 
-.one{
+.one {
   background-color: black;
 }
 
-.two{
+.two {
   background-color: mediumspringgreen;
 }
 
-.three{
+.three {
   background-color: navy;
 }
 
-.four{
+.four {
   background-color: pink;
 }
